@@ -1,0 +1,7 @@
+package com.binod.SpringFirst;
+
+public class Programmer {
+	Programmer(){
+		System.out.println("");
+	}
+}

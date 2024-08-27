@@ -1,0 +1,5 @@
+package com.JavaBasedConfig;
+
+public class Danfe extend Animal {
+
+}

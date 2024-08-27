@@ -1,0 +1,12 @@
+package com.ComponentStereoTypeAnnotation;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public abstract class Fruits {
+	Fruits(){
+		System.out.println(" This is constructor of a fruit class");
+	}
+	abstract int getPrice();
+	
+}

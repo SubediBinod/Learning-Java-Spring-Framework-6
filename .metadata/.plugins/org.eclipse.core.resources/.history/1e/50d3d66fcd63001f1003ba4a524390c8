@@ -1,0 +1,16 @@
+package com.JavaBasedConfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class JavaConfig {
+@Bean
+Rhino rhino() {
+	return new Rhino();
+}
+@Bean 
+Danfe danfe() {
+	return new Danfe();
+}
+}

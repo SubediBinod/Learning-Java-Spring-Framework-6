@@ -1,0 +1,10 @@
+package com.ComponentStereoTypeAnnotation;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Fruits {
+	int color;
+	int price;
+	
+}

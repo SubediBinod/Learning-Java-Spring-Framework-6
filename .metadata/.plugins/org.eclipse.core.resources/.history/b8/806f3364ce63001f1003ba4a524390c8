@@ -1,0 +1,21 @@
+package com.JavaBasedConfig;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Main {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        Rhino rhino= context.getBean("com1");
+        rhino.whoAmI();
+        System.out.println(rhino.getWeight());
+        Danfe danfe= context.getBean(Danfe.class);
+        danfe.whoAmI();
+        System.out.println(danfe.getColor());
+        System.out.println(danfe.getWeight());
+       
+
+    }
+}

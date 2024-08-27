@@ -1,0 +1,10 @@
+package ConstructorInjection;
+
+public class Car {
+	int modelNo;
+	float price;
+	public void startEngine() {
+		System.out.println("Starting");
+	}
+	
+}

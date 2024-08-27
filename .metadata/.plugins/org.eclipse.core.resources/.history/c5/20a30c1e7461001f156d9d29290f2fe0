@@ -1,0 +1,10 @@
+package ConstructorInjection;
+
+public class Ferrari implements Car{
+	
+public void startEngine() {
+	System.out.println("Starting Ferrari");
+}
+
+	
+}

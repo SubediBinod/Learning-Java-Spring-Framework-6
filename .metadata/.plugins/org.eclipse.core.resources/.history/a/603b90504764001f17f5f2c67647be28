@@ -1,0 +1,17 @@
+package com.ComponentStereoTypeAnnotation;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.JavaBasedConfig.JavaConfig;
+
+public class Main {
+	public static void main(String[]args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        
+        Apple apple = context.getBean(Apple.class);
+        
+        System.out.println("Price of the apple: " + apple.getPrice());
+
+	}
+}

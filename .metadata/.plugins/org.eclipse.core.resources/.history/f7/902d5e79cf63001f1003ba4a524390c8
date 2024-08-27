@@ -1,0 +1,24 @@
+package com.JavaBasedConfig;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class JavaConfig {
+@Bean(name="com1")
+Rhino rhino(Danfe d) {
+//	return new Rhino();
+	rhino.setD(d);
+	Rhino rhino= new Rhino();
+	rhino.setWeight(150);
+	return rhino;
+}
+@Bean 
+Danfe danfe() {
+	Danfe d= new Danfe();
+	d.setColor("Blue");
+	d.setWeight(10);
+	return d;
+}
+}

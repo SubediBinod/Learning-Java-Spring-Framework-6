@@ -1,0 +1,15 @@
+package com.JavaBasedConfig;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Main {
+    public static void main(String[] args) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        Rhino rhino= context.getBean(Rhino.class);
+        rhino.whoAmI();
+        System.out.println(rhino.getWeight());
+    }
+}

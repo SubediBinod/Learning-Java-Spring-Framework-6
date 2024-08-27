@@ -1,0 +1,6 @@
+package com.JavaBasedConfig;
+
+public class Animal {
+	int age;
+	
+}

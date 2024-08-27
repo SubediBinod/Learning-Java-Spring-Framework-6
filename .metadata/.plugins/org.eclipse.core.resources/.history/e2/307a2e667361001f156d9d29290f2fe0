@@ -1,0 +1,6 @@
+package ConstructorInjection;
+
+public class Ferrari extends Car{
+
+	
+}

@@ -1,0 +1,12 @@
+package com.binod.SpringFirst;
+
+public class Alien {
+	private int a;
+	
+	public void setA(int a) {
+		this.a = a;
+	}
+	public void greet() {
+		System.out.println("TO to To to");
+	}
+}

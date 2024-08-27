@@ -1,0 +1,7 @@
+package com.binod.SpringFirst;
+
+public class Alien {
+	public void greet() {
+		System.out.println("TO to To to");
+	}
+}
