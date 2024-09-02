@@ -1,9 +1,0 @@
-package ConstructorInjection;
-
-public class Ferrari extends Car{
-@Override
-public void startEngine() {
-	System.out.println("Starting Ferrari");
-}
-	
-}
