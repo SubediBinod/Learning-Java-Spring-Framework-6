@@ -26,12 +26,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.binod.WebApp"/>
+			<item value="com.binod.Servlet"/>
+			<item value="com.binod.webApp"/>
 			<item value="com.binod.SpringFirst"/>
 		</list>
 		<list key="groupId">
 			<item value="com.binod"/>
 		</list>
 		<list key="artifactId">
+			<item value="WebApp"/>
+			<item value="Servlet"/>
+			<item value="webApp"/>
 			<item value="SpringFirst"/>
 		</list>
 		<list key="projectNameTemplate">

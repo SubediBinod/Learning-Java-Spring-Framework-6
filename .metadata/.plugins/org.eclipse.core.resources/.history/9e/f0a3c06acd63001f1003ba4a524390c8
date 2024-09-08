@@ -1,9 +1,0 @@
-package com.JavaBasedConfig;
-
-public class Danfe extends Animal {
-	int weight;
-	String color;
-	public void whoAmI() {
-		System.out.println("This is Danfe exteding the animal class ");
-	}
-}

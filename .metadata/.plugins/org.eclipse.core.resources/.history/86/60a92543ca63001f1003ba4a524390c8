@@ -1,8 +1,0 @@
-package com.JavaBasedConfig;
-
-public class Rhino extends Animal{
-	int weight;
-	public void whoAmI() {
-		System.out.println("This isk Rhino extending an Animal class ");
-	}
-}
